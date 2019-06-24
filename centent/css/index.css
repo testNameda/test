@@ -1,0 +1,137 @@
+.top {
+    background-color: #A9180A;
+    color: white;
+}
+
+.right-bar {
+    position: fixed;
+    right: 0px;
+    height: 100%;
+    width: 36px;
+    background-color: black;
+    z-index: 10;
+}
+
+.top a {
+    color: white;
+}
+
+.top-bar {
+    width: 1250px;
+    margin: 0px auto;
+    background-color: #A9180A;
+}
+
+.top-bar-left {
+    display: inline-block;
+    line-height: 32px;
+    height: 32px;
+    margin-left: 5px;
+}
+
+.top-bar-left a {
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.top-bar-right {
+    display: block;
+    width: 512px;
+    float: right;
+    line-height: 32px;
+    height: 32px;
+}
+
+.top-bar-right li {
+    display: inline-block;
+}
+
+.top-bar-right a {
+    display: block;
+    padding: 0px 10px;
+}
+
+.top-bar-right a:hover {
+    color: #eb2929;
+}
+
+.wzdh:hover+.dhl,
+.sjzc:hover+.sj,
+.sjb:hover+.erweima,
+.scj:hover+.collection,
+.myTB:hover+.show-buy,
+.wzdh.sj:hover,
+.sjzc:hover,
+.scj:hover,
+.sjb:hover,
+.myTB:hover,
+.sj:hover,
+.dhl:hover,
+.show-buy:hover,
+.erweima:hover,
+.collection:hover {
+    display: block;
+    background-color: white;
+}
+
+
+.dhl,
+.sj,
+.erweima,
+.collection,
+.show-buy {
+    display: none;
+    padding-top: 15px;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-top: 0px;
+}
+
+
+.collection a,
+.show-buy a {
+    color: black;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.dhl {
+    border: 1px solid #ccc;
+    left: -1100px;
+    top: 32px;
+}
+
+.erweima {
+    padding: 7px;
+    left: -58px;
+    top: 32px;
+}
+
+.collection {
+    width: 82px;
+}
+
+.show-buy {
+    widows: 94;
+}
+
+.sj {
+    width: 140px;
+    padding: 8px;
+}
+
+.sj a {
+    color: black;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.sj ul {
+    line-height: 1.5em;
+    display: block;
+    color: black;
+}
+
+.sj-box {
+    border-bottom: 1px dashed #ccc;
+}
