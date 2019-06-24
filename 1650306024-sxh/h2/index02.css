@@ -1,0 +1,168 @@
+body {
+    background: rgb(230, 222, 222);
+    position: relative;
+}
+
+.all-hang {
+
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.top-head {
+
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.top-left {
+
+    display: inline-block;
+
+    width: 500px;
+
+
+
+}
+
+.top-left>img {
+    vertical-align: middle;
+}
+
+.top-left>span {
+    font-size: 25px;
+    color: #ccc;
+    margin-left: 15px;
+
+
+}
+
+.top-right {
+
+
+    width: 300px;
+    margin-top: 20px;
+    float: right;
+
+}
+
+.top-right>span {
+    float: right;
+}
+
+.top-right>span>a {
+    color: blue;
+    margin-left: 30px;
+}
+
+
+.main-all {
+
+    width: 1000px;
+    background: white;
+    margin-top: 20px;
+}
+
+.main-top {
+    width: 1000px;
+    background: url(./image/tit_bg2.jpg);
+    height: 46px;
+
+}
+
+.main-top>img {
+    vertical-align: middle;
+}
+
+.main-top>span {
+    color: #ccc;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+.main-center {
+    width: 500px;
+    height: 450px;
+
+    margin: 0px auto;
+}
+
+.main-center>input {
+    margin-left: 10px;
+}
+
+
+
+
+.hh-zi {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.h2 {
+
+    color: rgb(97, 89, 89);
+    font-size: 13px;
+    margin-left: 103px;
+    margin-top: 8px;
+
+}
+
+.hr>img {
+    vertical-align: middle;
+}
+
+.h2>a {
+    color: blue;
+    margin-left: 10px;
+}
+
+.h2>span>a {
+    color: blue;
+    margin-left: 10px;
+}
+
+.anniu {
+    width: 104px;
+    height: 37px;
+    background: url(./image/but.jpg) no-repeat;
+    margin-left: 103px;
+    margin-top: 58px;
+}
+
+.h1 {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.h4 {
+    margin-left: 58px;
+}
+
+.h5 {
+    margin-left: 26px;
+}
+
+.hr {
+    margin-left: 39px;
+}
+
+.h6 {
+    margin-left: 37px;
+}
+
+.aaa {
+    width: 780px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.aaa>span {
+    color: rgb(71, 68, 68);
+    margin-left: 8px;
+}
