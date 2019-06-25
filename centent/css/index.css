@@ -1,6 +1,7 @@
 .top {
     background-color: #A9180A;
     color: white;
+    margin-bottom: 15px;
 }
 
 .right-bar {
@@ -16,11 +17,11 @@
     color: white;
 }
 
-.top-bar {
+.centent{
     width: 1250px;
     margin: 0px auto;
-    background-color: #A9180A;
 }
+
 
 .top-bar-left {
     display: inline-block;
@@ -134,4 +135,93 @@
 
 .sj-box {
     border-bottom: 1px dashed #ccc;
+}
+.center-box{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 128px;
+}
+.center-box li{
+    display: inline-block;
+    margin: 0px 3px;
+}
+.center-box li a{
+    font-size: 16px;
+    color: rgb(155, 155, 155)    
+}
+.sousuolan{
+    display: inline-flex;
+    align-items: center;
+    width: 630px;
+    margin-bottom: 6px;
+}
+.sousuolan-text{
+    width: 492px;
+    height: 38px;
+    border:2px solid #eb2929;
+    padding-left: 5px;
+}
+.sousuolan-btn{
+    width: 133px;
+    height: 42px;
+    border: 0px;
+    background-color: #eb2929;
+    color: white;
+    font-size: 18px;
+    font-weight: 650;
+}
+.nav-ul{
+    height: 34px;
+}
+.nav-ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px;
+}
+.nav-ul li:first-child{
+    margin: 0px;
+}
+.nav-ul a{
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    color: black;
+
+}
+.nav-ul a:hover{
+    color: #eb2929;
+}
+.tm-a-bg{
+    display: block;
+    background: url("../img/li-icon.png") no-repeat;
+    height: 34px;
+}
+.fl-a-bg{
+    width: 200px;
+}
+.cs-a-bg{
+    width: 114px;
+    background-position-x: -200px;
+}
+.gj-a-bg{
+    width: 114px;
+    background-position-x: -325px;
+}
+.left-spfl{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+.left-spfl li{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.left-spfl li a{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: white;;
+    background: url("../img/left-li-iocn.png") no-repeat 12px 6px;
+    padding-left: 43px;
 }
