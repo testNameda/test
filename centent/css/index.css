@@ -475,11 +475,13 @@ body {
     background-color: white;
 }
 
+
 .pp-item-a {
     background: url("../img/item-list-img.png") no-repeat 0px 0px;
     width: 124px;
     height: 108px;
     float: left;
+    margin-left: 1px;
 }
 
 .pp-item-a:hover {
