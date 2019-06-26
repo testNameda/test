@@ -7,10 +7,14 @@ var interval1;
 var interval2;
 var interval0;
 
+var yz = 0;
+var lastNum = -1;
+
 init();
 
 function init() {
     console.log(123);
+    setPpItemsBg();
     interval0 = setInterval(b, 6000);
 }
 
@@ -71,4 +75,22 @@ function dsa() {
     } else {
         img.style.opacity = (parseFloat(img.style.opacity) + 0.02) + "";
     }
+}
+
+function setPpItemsBg() {
+    var ppItemsArr = document.getElementsByName("pp-item");
+
+    for (var i = 0; i < ppItemsArr.length; i++) {
+        var temp = ppItemsArr[i];
+        if (i % 10 == 0 && i != 0) {
+            yz = yz - 110;
+            lastNum = -1;;
+        }
+        temp.style.backgroundPositionY = yz + "px"
+        temp.style.backgroundPositionX = lastNum + "px";
+        lastNum = lastNum - 123;
+
+    }
+
+
 }

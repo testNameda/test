@@ -476,14 +476,14 @@ body {
 }
 
 .pp-item-a {
-    display: inline-block;
-    background: url("../img/item-list-img.png") no-repeat -983px -219px;
-    width: 121px;
+    background: url("../img/item-list-img.png") no-repeat 0px 0px;
+    width: 124px;
     height: 108px;
+    float: left;
 }
 
 .pp-item-a:hover {
-    background-position: 0px 0px;
+    background: url("../img/item-list-img-r.png") no-repeat 0px 0px;
 }
 
 .tmcs-title {
