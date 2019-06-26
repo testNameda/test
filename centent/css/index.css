@@ -360,11 +360,6 @@ body {
     margin: 0px 2px;
 }
 
-.lbt-a-list a:hover {
-    background-color: white;
-    opacity: 1;
-}
-
 .left-spfl {
     /* display: inline-block; */
     width: 200px;
