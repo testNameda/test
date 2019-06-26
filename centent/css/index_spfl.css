@@ -1,0 +1,129 @@
+.s-list {
+    width: 852px;
+    height: 500px;
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: 1px;
+    z-index: 5;
+
+}
+
+.font-color-red:hover {
+    background-color: white;
+    color: #dd2727;
+}
+
+.font-color-bule:hover {
+    background-color: white;
+    color: #427def;
+}
+
+.font-color-b1:hover {
+    background-color: white;
+    color: #3bd2d9;
+}
+
+.font-color-o1:hover {
+    background-color: white;
+    color: #f7a831;
+}
+
+.font-color-z1:hover {
+    background-color: white;
+    color: #6347ed;
+}
+
+.spfl-list-1 {
+    background: url("../img/spflList/spfl-list-1.png") no-repeat;
+}
+
+.spfl-list-2 {
+    background: url("../img/spflList/spfl-list-2.png") no-repeat -1px -1px;
+    left: 200px;
+    top: -31px;
+}
+
+.spfl-list-3 {
+    background: url("../img/spflList/spfl-list-3.png") no-repeat;
+    left: 200px;
+    top: -62px;
+}
+
+.spfl-list-4 {
+    background: url("../img/spflList/spfl-list-4.png") no-repeat;
+    left: 200px;
+    top: -94px;
+}
+
+.spfl-list-5 {
+    background: url("../img/spflList/spfl-list-5.png") no-repeat;
+    left: 199px;
+    top: -125px;
+}
+
+.spfl-list-6 {
+    background: url("../img/spflList/spfl-list-6.png") no-repeat;
+    left: 199px;
+    top: -157px;
+}
+
+.spfl-list-7 {
+    background: url("../img/spflList/spfl-list-7.png") no-repeat;
+    left: 199px;
+    top: -189px;
+}
+
+.spfl-list-8 {
+    background: url("../img/spflList/spfl-list-8.png") no-repeat;
+    left: 200px;
+    top: -220px;
+}
+
+.spfl-list-9 {
+    background: url("../img/spflList/spfl-list-9.png") no-repeat;
+    left: 200px;
+    top: -251px;
+}
+
+.spfl-list-10 {
+    background: url("../img/spflList/spfl-list-10.png") no-repeat;
+    left: 199px;
+    top: -283px;
+}
+
+.spfl-list-11 {
+    background: url("../img/spflList/spfl-list-11.png") no-repeat;
+    left: 199px;
+    top: -315px;
+}
+
+.spfl-list-12 {
+    background: url("../img/spflList/spfl-list-12.png") no-repeat;
+    left: 199px;
+    top: -346px;
+}
+
+.spfl-list-13 {
+    background: url("../img/spflList/spfl-list-13.png") no-repeat;
+    left: 200px;
+    top: -378px;
+}
+
+.spfl-list-14 {
+    background: url("../img/spflList/spfl-list-14.png") no-repeat;
+    left: 200px;
+    top: -409px;
+}
+
+.spfl-list-15 {
+    background: url("../img/spflList/spfl-list-15.png") no-repeat;
+    left: 199px;
+    top: -440px;
+}
+
+.spfl-list-16 {
+    background: url("../img/spflList/spfl-list-16.png") no-repeat;
+    left: 200px;
+    top: -472px;
+}

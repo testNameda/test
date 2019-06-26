@@ -18,8 +18,20 @@ body {
 
 }
 
-.right-bar a:hover {
-    opacity: 0.2;
+.ewm:hover>.tc-img,
+.right-bar a:hover>.tc-text-box {
+    visibility: visible;
+    right: 100%;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.ewm:hover>.tc-img {
+    top: -100%;
+}
+
+.gwc:hover {
+    background: url("../img/gwc-r.png") no-repeat 0px 0px;
 }
 
 .btn-list-box {
@@ -35,6 +47,7 @@ body {
 }
 
 .btn-icon {
+    position: relative;
     display: block;
     width: 36px;
     height: 36px;
@@ -62,14 +75,14 @@ body {
 }
 
 .hyqy {
-    background-position: 3px -1px;
+    background-position: 4px 8px;
 }
 
 .gwc {
     display: block;
     width: 36px;
     height: 100px;
-    background: url("../img/right-btn-list.png") no-repeat 3px -37px;
+    background: url("../img/right-btn-list.png") no-repeat 4px -37px;
 }
 
 .wdzc {
@@ -87,6 +100,27 @@ body {
 .wdcz {
     background-position: 3px -274px;
 }
+
+.tc-img {
+    visibility: hidden;
+    right: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+.tc-text-box {
+    visibility: hidden;
+    width: 100px;
+    height: 38px;
+    right: 188%;
+    line-height: 38px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    opacity: 0;
+}
+
 
 .top a {
     color: white;
@@ -310,6 +344,7 @@ body {
     vertical-align: top;
 }
 
+
 .left-spfl li {
     background-color: rgba(0, 0, 0, 0.5)
 }
@@ -320,14 +355,14 @@ body {
     line-height: 32px;
     font-size: 16px;
     color: white;
-    ;
+    position: relative;
     background: url("../img/start-icon.png") no-repeat 12px 6px;
     padding-left: 43px;
 }
 
-.left-spfl li a:hover {
-    background-color: white;
-    color: #eb2929;
+
+.left-spfl li a:hover>.s-list {
+    display: block;
 }
 
 .right-sqfl a {
@@ -388,6 +423,14 @@ body {
     width: 20px;
 }
 
+#item-title-a {
+    background-position: 33px 1px;
+    padding-right: 22px;
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+    width: 35px;
+}
+
 .chi-title {
     font-size: 18px;
 }
@@ -400,13 +443,13 @@ body {
 
 .pp-item-a {
     display: inline-block;
-    background: url("../img/item-list-img.png") no-repeat -128px 0px;
+    background: url("../img/item-list-img.png") no-repeat -983px -219px;
     width: 121px;
     height: 108px;
 }
 
 .pp-item-a:hover {
-    background-position-x: 0px;
+    background-position: 0px 0px;
 }
 
 .tmcs-title {
@@ -430,6 +473,10 @@ body {
 .tmcs-ul a {
     font-size: 14px;
     color: black;
+}
+
+.tmcs-ul a:hover {
+    border-bottom: 1px solid black;
 }
 
 
@@ -462,6 +509,20 @@ body {
     background: url("../img/tmcs-items-img.png") no-repeat -250px 0px;
 }
 
+.item-dt-a {
+    position: absolute;
+    display: block;
+    height: 57px;
+    width: 231px;
+    left: 239px;
+    top: 10px;
+
+}
+
+.item-dt-a:hover+.tmcs-item-dt {
+    background: url("../img/lfz-bg.png") no-repeat -2px 0px;
+}
+
 .tmcs-item-img {
     vertical-align: top;
     display: inline-block;
@@ -473,6 +534,7 @@ body {
 }
 
 .items-view {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     width: 980px;
