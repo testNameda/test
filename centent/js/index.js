@@ -5,11 +5,14 @@ var id = 1;
 var interval1;
 var interval2;
 var interval0;
+var onoff = true;
 
 init();
 
 function init() {
-    interval0 = setInterval(b, 5000);
+    if (onoff) {
+        interval0 = setInterval(b, 5000);
+    }
 }
 
 function b() {
@@ -18,6 +21,8 @@ function b() {
     else
         id = 1;
     interval1 = setInterval(asd, 40);
+    onoff = false;
+
 }
 
 
@@ -26,6 +31,7 @@ function lbt(i) {
         return;
     }
     clearInterval(interval0);
+    onoff = true;
     init();
     id = i;
     interval1 = setInterval(asd, 20);
