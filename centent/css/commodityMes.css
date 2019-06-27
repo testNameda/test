@@ -1,0 +1,44 @@
+.top-cm {
+    background-color: #f2f2f2;
+    color: #999999;
+    margin-bottom: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar-left a,
+.top-bar-right>ul>li>a {
+    color: #999999;
+}
+
+.top-cm a {
+    color: #666666;
+}
+
+.search-box {
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-img {
+    float: left;
+}
+
+.dp-mes {
+    float: left;
+}
+
+.dp-name {
+    color: black;
+}
+
+.dp-name:hover {
+    text-decoration: underline;
+}
+
+.ali {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../img/com-mes/ali.png") no-repeat;
+    vertical-align: middle;
+}
