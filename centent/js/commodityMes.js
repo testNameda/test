@@ -3,17 +3,19 @@ var lbtItem = document.getElementsByName("lbt")[0];
 var fdjView = document.getElementById("fdj-view");
 var fdjBox = document.getElementById("fdj-box");
 var fdjIcon = document.getElementById("fangdajing-icon");
+var video = document.getElementById("video");
 var num = 0;
 var onOff = true;
 
 initr();
 
 function initr() {
-    lbtArr[0].style.display = "inline-block"
     fdjView.style.backgroundImage = "url('img/spxq-lbt/fandat/fanda-1.jpg')";
 }
 
 function changeImg(i) {
+
+    stopVideo();
     if (lbtArr.length < 5) {
         lbtArr = document.getElementsByName("lbt");
     }
@@ -32,6 +34,15 @@ function changeImg(i) {
 }
 
 function fangDaJ() {
+    /*
+        放大镜背景偏移倍数为放大后图片减去原图的长宽除原图的长宽
+
+        当鼠标靠近原图边缘1/2遮盖图的长宽时，值不变 靠左边背景偏移量为0 靠右边背景偏移量为放大图减去原图长宽
+
+        遮罩图位置偏移量为鼠标在图片的相对位置
+
+        当鼠标靠近原图位置遮罩图1/2长宽值时，遮罩图位置不变（防止遮罩图跑出原图外区域）
+     */
     if (onOff) {
         fdjView.style.display = "block";
         fdjBox.style.display = "block";
@@ -93,4 +104,24 @@ function fdjJs() {
     fdjBox.style.display = "none";
     fdjIcon.style.display = "block";
     onOff = true;
+}
+
+
+function playVideo() {
+    document.getElementById("play-video-btn").style.display = "none";
+    lbtItem.style.display = "none";
+    fdjIcon.style.display = "none";
+    video.style.display = "block";
+    video.currentTime = 0;
+    video.play();
+    document.getElementById("close-video").style.display = "block";
+}
+
+function stopVideo() {
+    video.pause();
+    video.style.display = "none";
+    lbtItem.style.display = "block"
+    document.getElementById("play-video-btn").style.display = "block";
+    fdjIcon.style.display = "block";
+    document.getElementById("close-video").style.display = "none";
 }

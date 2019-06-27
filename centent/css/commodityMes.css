@@ -189,12 +189,27 @@ body {
 }
 
 .play-video-but {
+    display: none;
     border: none;
     outline: none;
     position: absolute;
     bottom: 20px;
     left: 5px;
     background: none;
+    cursor: pointer;
+}
+
+.close-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.473);
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
 }
 
 .fangdajing {
@@ -204,6 +219,7 @@ body {
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
     color: rgb(143, 143, 143);
+    display: none;
 }
 
 .fdj-view {
