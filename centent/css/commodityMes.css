@@ -6,6 +6,10 @@
     border-bottom: 1px solid #ccc;
 }
 
+body {
+    background-color: white;
+}
+
 .top-bar-left a,
 .top-bar-right>ul>li>a {
     color: #999999;
@@ -116,4 +120,18 @@
 
 .box:hover>.search-btn {
     background-color: white;
+}
+
+.sp-jtxq {
+    margin-top: 188px;
+}
+
+.sp-left {
+    display: inline-block;
+    width: 418px;
+}
+
+.sp-left video {
+    width: 418px;
+    height: 418px;
 }
