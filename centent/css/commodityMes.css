@@ -122,8 +122,42 @@ body {
     background-color: white;
 }
 
-.sp-jtxq {
-    margin-top: 188px;
+.dp-dh-box {
+    margin-bottom: 38px;
+}
+
+.dp-xx-box {
+    padding: 38px 0px 20px 0px;
+
+}
+
+.dp-xy {
+    color: black;
+    font-size: 16px;
+    float: right;
+
+}
+
+.dp-xy a {
+    color: black;
+}
+
+.dp-dh {
+    background-color: black;
+    text-align: center;
+}
+
+.dp-dh li {
+    display: inline-block;
+}
+
+.dp-dh a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-family: "黑体";
+    padding: 16px;
+    margin: 0px 42px;
 }
 
 .sp-left {
@@ -134,4 +168,22 @@ body {
 .sp-left video {
     width: 418px;
     height: 418px;
+}
+
+.lbt {
+    display: none;
+    width: 418px;
+    height: 418px;
+}
+
+.yulantu-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.yulantu-box img:hover {
+    border: 2px solid black;
+    width: 56px;
+    height: 56px;
 }
