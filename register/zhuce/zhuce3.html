@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .quanbu {
+            width: 993px;
+            height: 443px;
+            margin: 0px auto;
+        }
+
+        .toubu {
+            width: 993px;
+            /* border: 1px solid red; */
+        }
+
+
+        .toubu li {
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+
+        .toubu .one {
+            width: 165.5px;
+            border-bottom: 2px solid #ccc;
+            font-weight: bold;
+        }
+
+        .toubu .two {
+            width: 165.5px;
+            border-bottom: 2px solid #ff0036;
+            font-weight: bold;
+        }
+
+        .one img {
+            vertical-align: middle;
+        }
+
+        .two img {
+            vertical-align: middle;
+        }
+
+        .toubu ul {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 25px;
+            margin-top: 10px;
+        }
+
+        .shenti {
+            width: 724px;
+            height: 332px;
+            border: 2px solid #dedede;
+            border-top: 2px solid #ff0036;
+            margin: 0px auto;
+            margin-top: 50px;
+
+        }
+
+        .kuan {
+            width: 649px;
+            height: 281px;
+            margin: 0px auto;
+            margin-top: 30px;
+            margin-left: 24px;
+            position: relative;
+        }
+
+        .kuan h4 {
+            color: #676767;
+            margin-bottom: 10px;
+        }
+
+        .h5 {
+            font-size: 12px;
+        }
+
+        .xiaomokua {
+            display: inline-block;
+            margin: 0px auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .haoma {
+            display: inline-block;
+            width: 50px;
+            height: 30px;
+            margin-right: 37px;
+            font-size: 15px;
+        }
+
+        .shouji {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .haoma2 {
+            width: 50px;
+            height: 30px;
+            margin-right: 42px;
+            line-height: 42px;
+            float: left;
+            font-size: 15px;
+        }
+
+        .shurukuan {
+            width: 100px;
+            height: 42px;
+        }
+
+        .yanzhengma {
+            width: 100px;
+            height: 44px;
+            background: #ccc;
+            border: none;
+            color: white;
+            float: left;
+        }
+
+        .cg {
+            font-size: 12px;
+
+        }
+
+        .cg img {
+            vertical-align: middle;
+
+        }
+
+        .qr {
+            width: 68px;
+            height: 37px;
+            background: #ff0036;
+            border: none;
+            margin-left: 268px;
+            margin-top: 167px;
+            font-size: 15px;
+            color: wheat;
+            display: block;
+            text-decoration: none;
+            padding-top: 5px;
+            padding-left: 37px;
+        }
+
+        .fdj>div {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quanbu">
+        <div class="toubu">
+            <ul>
+                <li class="one">
+
+                </li>
+                <li class="two">
+                    <img src="./1.png" alt="">
+                    设置用户名
+                </li>
+                <li class="one">
+                    <img src="./2.png" alt="">
+                    填写账号信息
+                </li>
+                <li class="one">
+                    <img src="./3.png" alt="">
+                    设置支付方式
+                </li>
+                <li class="one">
+                    <img src="./4.png" alt="">
+                    注册成功
+                </li>
+                <li class="one">
+
+                </li>
+            </ul>
+        </div>
+        <div class="shenti">
+            <div class="kuan">
+                <div>
+                    <h4>验证手机</h4>
+                </div>
+                <div class="h5">
+                    <img src="1LT`0%151`M}MX]`54CLL3I.png" alt="">
+                    校验码已发送到你的手机，15分钟内输入有效，请勿泄漏
+                </div>
+                <div class="xiaomokua">
+                    <div>
+                        <div class="haoma">
+                            手机号
+                        </div>
+                        <div class="shouji">
+                            189****7788
+                        </div>
+                    </div>
+                    <div class="fdj clearfix">
+                        <div class="haoma2">
+                            验证码
+                        </div>
+                        <div>
+                            <input type="text" class="shurukuan">
+                        </div>
+                        <div>
+                            <button type="submit" class="yanzhengma">免费获取验证码</button>
+                        </div>
+                    </div>
+                    <div class="cg">
+                        <div class="haoma">
+
+                        </div>
+                        <img src="QQ图片20190627142353.png" alt="">
+                        校验码已发送至你的手机，请查收
+                    </div>
+                </div>
+                <div>
+                    <a class="qr" href="./zhuce4.html">确认</a>
+                    <!-- <button type="submit" class="qr">确认</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

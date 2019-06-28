@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .quanbu {
+            width: 993px;
+            height: 443px;
+            margin: 0px auto;
+        }
+
+        .toubu {
+            width: 993px;
+            /* border: 1px solid red; */
+        }
+
+
+        .toubu li {
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+
+        .toubu .one {
+            width: 165.5px;
+            border-bottom: 2px solid #ccc;
+            font-weight: bold;
+        }
+
+        .toubu .two {
+            width: 165.5px;
+            border-bottom: 2px solid #ff0036;
+            font-weight: bold;
+        }
+
+        .one img {
+            vertical-align: middle;
+        }
+
+        .two img {
+            vertical-align: middle;
+        }
+
+        .toubu ul {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 25px;
+            margin-top: 10px;
+        }
+
+        .shenti {
+            width: 967px;
+            margin: 0px auto;
+            border: 1px solid #dfdfdf;
+            margin-top: 20px;
+            height: 650px;
+        }
+
+        .body {
+            width: 550px;
+            height: 372px;
+            margin: 0px auto;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+
+        .frame1 {
+            height: 64px;
+        }
+
+        .case1 {
+            float: left;
+            width: 86px;
+            height: 32px;
+            margin-left: 50px;
+            margin-top: 9px;
+        }
+
+        .box1 {
+            float: left;
+            width: 260px;
+            height: 32px;
+        }
+
+        .case2 {
+            float: left;
+            width: 86px;
+            height: 32px;
+            margin-left: 38px;
+            margin-top: 9px;
+        }
+
+        .box2 {
+            float: left;
+            width: 260px;
+            height: 32px;
+            margin-left: 12px;
+        }
+
+
+        .case3 {
+            float: left;
+            width: 86px;
+            height: 32px;
+            margin-left: 81px;
+            margin-top: 9px;
+        }
+
+        .xz3 {
+            float: left;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+
+        .box3 {
+            float: left;
+            width: 184px;
+            height: 32px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .case4 {
+            float: left;
+            width: 86px;
+            height: 32px;
+            margin-left: 53px;
+            margin-top: 9px;
+        }
+
+        .box4 {
+            float: left;
+            width: 146px;
+            height: 32px;
+            margin-left: 1px;
+        }
+
+        .yz {
+            width: 103px;
+            height: 36px;
+            float: left;
+            border: 1px solid gray;
+            background: #f4f4f4;
+            margin-left: 4px;
+        }
+
+        .ty {
+            width: 127px;
+            height: 37px;
+            background: #00a3d2;
+            border: none;
+            font-size: 15px;
+            color: white;
+            float: left;
+            margin-top: 10px;
+            display: block;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-left: 26px;
+        }
+
+        .zf {
+            font-size: 12px;
+        }
+
+        .zf a {
+            text-decoration: none;
+            color: #00a3d2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="quanbu">
+        <div class="toubu">
+            <div class="hentiao">
+                <ul>
+                    <li class="one">
+
+                    </li>
+                    <li class="two">
+                        <img src="./1.png" alt="">
+                        设置用户名
+                    </li>
+                    <li class="two">
+                        <img src="./QQ图片20190628100920.png" alt="">
+                        填写账号信息
+                    </li>
+                    <li class="two">
+                        <img src="./23.png" alt="">
+                        设置支付方式
+                    </li>
+                    <li class="one">
+                        <img src="./4.png" alt="">
+                        注册成功
+                    </li>
+                    <li class="one">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="shenti">
+            <div class="body">
+                <div class="frame1">
+                    <div class="case1">
+                        银行卡号
+                    </div>
+                    <div>
+                        <input type="text" class="box1">
+                    </div>
+                </div>
+                <div class="frame1">
+                    <div class="case2">
+                        持卡人姓名
+                    </div>
+                    <div>
+                        <input type="text" class="box2">
+                    </div>
+                </div>
+                <div class="frame1">
+                    <div class="case3">
+                        证件
+                    </div>
+                    <div class="xz3">
+                        <select>
+                            <option value="-1" selected="selected">身份证</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" class="box3">
+                    </div>
+                </div>
+                <div class="frame1">
+                    <div class="case4">
+                        手机号码
+                    </div>
+                    <div>
+                        <input type="text" class="box4" placeholder="此卡在银行预留手机号码">
+                    </div>
+                    <div>
+                        <button type="submit" class="yz">获取验证码</button>
+                    </div>
+                </div>
+                <div class="frame1">
+                    <div class="case4">
+
+                    </div>
+                    <div>
+                        <a class="ty" href="./zhuce8.html">同意协议并确定</a>
+                        <!-- <button type="submit" class="ty">同意协议并确定</button> -->
+                    </div>
+                </div>
+                <div class="frame1">
+                    <div class="case4">
+
+                    </div>
+                    <div class="zf">
+                        查看 <a href="www.http">《快捷支付服务相关协议》</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
