@@ -4,14 +4,36 @@ var fdjView = document.getElementById("fdj-view");
 var fdjBox = document.getElementById("fdj-box");
 var fdjIcon = document.getElementById("fangdajing-icon");
 var video = document.getElementById("video");
+var videoBox = document.getElementById("video-box");
+var yulantuBox = document.getElementById("yulantu-box");
 var num = 0;
 var onOff = true;
+var positionChange = true;
 
 initr();
 
 function initr() {
     fdjView.style.backgroundImage = "url('img/spxq-lbt/fandat/fanda-1.jpg')";
 }
+
+window.onscroll = function () {
+    var videoPosition = videoBox.getBoundingClientRect().top + 418;
+    var lbtPosition = yulantuBox.getBoundingClientRect().top;
+    if (positionChange == false && lbtPosition > 0 && videoBox.style.position == "fixed") {
+        videoBox.style.position = "static"
+        lbtItem.style.display = "none";
+        positionChange = true;
+    }
+    if (!positionChange || videoBox.style.display == "none" || videoPosition > 0)
+        return;
+    videoBox.style.position = "fixed";
+    videoBox.style.bottom = "0px";
+    videoBox.style.right = "40px";
+    videoBox.style.zIndex = "15";
+    lbtItem.style.display = "block";
+    positionChange = false;
+}
+
 
 function changeImg(i) {
 
@@ -111,22 +133,26 @@ function playVideo() {
     document.getElementById("play-video-btn").style.display = "none";
     lbtItem.style.display = "none";
     fdjIcon.style.display = "none";
-    video.style.display = "block";
+    videoBox.style.display = "block";
     video.currentTime = 0;
     video.play();
     document.getElementById("close-video").style.display = "block";
+    positionChange = true;
 }
 
 function stopVideo() {
     video.pause();
-    video.style.display = "none";
+    videoBox.style.display = "none";
     lbtItem.style.display = "block"
     document.getElementById("play-video-btn").style.display = "block";
     fdjIcon.style.display = "block";
     document.getElementById("close-video").style.display = "none";
+    if (videoBox.style.position == "fixed") {
+        videoBox.style.position = "static";
+    }
 }
 
-function tzClick(i){
-    var inp = document.getElementById("tz-in-"+i);
+function tzClick(i) {
+    var inp = document.getElementById("tz-in-" + i);
     inp.checked = true;
 }
