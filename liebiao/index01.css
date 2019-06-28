@@ -1,8 +1,4 @@
-.top {
-    color: #999;
-    background: #f2f2f2;
-}
-
+/* 天猫右侧导航绝对定位（其中包含购物车，我的资产，收藏及返回顶部等） */
 .right-bar {
     position: fixed;
     right: 0px;
@@ -116,7 +112,13 @@
     opacity: 0;
 }
 
-/* hhhhhhhhhhhhhhhhhh */
+/* 天猫顶部导航栏（包含链接天猫首页，登陆页面，注册页面，购物车，网站导航等） */
+
+.top {
+    color: #999;
+    background: #f2f2f2;
+}
+
 .top a {
     color: #999;
     line-height: 32px;
@@ -274,7 +276,7 @@
     border-bottom: 1px dashed #ccc;
 }
 
-
+/* 天猫搜索栏 */
 .quan {
 
     width: 1190px;
@@ -373,6 +375,7 @@
     color: #999;
 }
 
+/* 天猫商品搜索栏 */
 .top2-main-xia-ssl {
 
     text-align: center;
@@ -413,6 +416,7 @@
     font-weight: 600;
 }
 
+/* 天猫品牌筛选（其中包含品牌图片，鼠标触过出现品牌名称，其中运用js点击更多出现更多品牌） */
 .top3-main-zhong {
     width: 100%;
     margin: 0px auto;
@@ -975,6 +979,7 @@
     display: inline;
 }
 
+/* 天猫商品分类块 */
 .top4-main-all {
     width: 100%;
     margin: 0px auto;
@@ -1036,7 +1041,7 @@
 }
 
 
-/* hhhhhhhhhhh */
+/* 天猫商品排序（价格，综合，人气等，及收货地） */
 
 .center-top-main {
     margin-top: 20px;
@@ -1226,7 +1231,7 @@
     background: #CCC;
 }
 
-/* hhhhhhhhhhhhhhhhhhhhh */
+/* 天猫商品列表，（包含商品图片，价格，评价数和成交量） */
 .main-center-main {
     margin-top: 20px;
 }
@@ -1382,6 +1387,7 @@
     color: rgb(51, 145, 233);
 }
 
+/* 天猫商品列表换页显示以及推荐商品  */
 .bottem-main-center>p {
     width: 600px;
     margin: 0px auto;
@@ -1640,7 +1646,7 @@
 .qdbz a {
     display: block;
     height: 58px;
-    width: 220px;
+    width: 200px;
     padding: 15px;
     background: url("./image/qdbz-img.png") no-repeat 8px 16px;
     margin: 25px;
@@ -1689,7 +1695,9 @@
     background-color: black;
 }
 
-
+.bottom-bottom>.centent>img {
+    width: 1196px;
+}
 
 .bottem-last-bj-logo {
     position: absolute;
