@@ -242,51 +242,62 @@ body {
 .yulantu-box img:hover {
     outline: 2px solid black;
 }
-.sp-set-a{
+
+.sp-set-a {
     margin-top: 20px;
 }
-.sp-set-a a{
+
+.sp-set-a a {
     color: #888888;
     margin-right: 10px;
 }
-.sp-jb-a{
+
+.sp-jb-a {
     float: right;
 }
 
-.sp-center{
+.sp-center {
     margin-top: 20px;
     display: inline-block;
     vertical-align: top;
 }
-.sp-center h2{
+
+.sp-center h2 {
     text-align: center;
     font-size: 17px;
 }
-.jiage-box{
+
+.jiage-box {
     background: url("../img/com-mes/jg-bg.png") no-repeat;
 }
-.sp-bq-box{
+
+.sp-bq-box {
     padding: 8px;
     margin: 5px 0px;
     width: 511px;
 }
-.sp-c-jiage{
+
+.sp-c-jiage {
     color: #ff0036;
     font-size: 21px;
     font-weight: 650;
 }
-.sp-c-bq{
+
+.sp-c-bq {
     color: #888888;
 }
-.felx-box-btww{
+
+.felx-box-btww {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.sp-mar-le{
+
+.sp-mar-le {
     margin-left: 50px;
 }
-.sp-c-a{
+
+.sp-c-a {
     display: inline-block;
     text-align: center;
     padding: 10px 20px;
@@ -294,10 +305,12 @@ body {
     border-top: 1px dashed #ccc;
     border-bottom: 1px dashed #ccc;
 }
-.sec-sp-form input{
+
+.sec-sp-form input {
     display: none;
 }
-.cm-label{
+
+.cm-label {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -308,92 +321,254 @@ body {
     line-height: 28px;
     cursor: pointer;
 }
-.sp-bq-box input:checked+label{
+
+.sp-bq-box input:checked+label {
     border-color: #ff0036;
 }
 
 #check4:checked+label,
-#check5:checked+label{
+#check5:checked+label {
     border-color: #ff0036;
 }
-.cm-label-img-1{
+
+.cm-label-img-1 {
     display: inline-block;
     height: 60px;
     width: 60px;
     background: url("../img/spxq-lbt/yulant/spxq-lbt-3.jpg") no-repeat;
-    transform: scale(0.7,0.7);
+    transform: scale(0.7, 0.7);
     vertical-align: middle;
-    border:2px solid #ccc;
+    border: 2px solid #ccc;
 }
-.cm-label-img-2{
+
+.cm-label-img-2 {
     display: inline-block;
     height: 60px;
     width: 60px;
     background: url("../img/spxq-lbt/yulant/spxq-lbt-5.jpg") no-repeat;
-    transform: scale(0.7,0.7);
+    transform: scale(0.7, 0.7);
     vertical-align: middle;
-    border:2px solid #ccc;
+    border: 2px solid #ccc;
 }
-#sp-num{
+
+#sp-num {
     display: inline-block;
     width: 42px;
     height: 28px;
 }
-.button-box{
+
+.button-box {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-.sp-sub-btn{
+
+.sp-sub-btn {
     border: 1px solid #ff0036;
     outline: none;
-    background-color:#ffeded; 
+    background-color: #ffeded;
     color: #ff0036;
     width: 180px;
     height: 40px;
 }
-.sp-bq-box a{
+
+.sp-bq-box a {
     color: #888888;
     margin-left: 20px;
 }
-.sp-right{
+
+.sp-right {
     width: 203px;
     height: 561px;
     background: url("../img/com-mes/sp-right.png") no-repeat;
 }
 
-.sp-xq{
+.sp-xq {
     width: 790px;
-    margin: 70px auto;
-    border: 1px solid #ccc;
+    margin: 0px auto;
+    margin-top: 70px;
+    border-top: 1px solid #ccc;
 }
-.sp-xq input{
+
+.sp-xq #sp-xq-jt,
+.sp-xq #sp-pj {
     display: none;
 }
-.sp-xq input:checked+label{
+
+.sp-xq input:checked+.label-1 {
     border: 1px solid #ccc;
     border-top: 2px solid #ff0036;
     border-bottom: none;
     color: #ff0036;
-    padding:15px 14px;
+    padding: 15px 14px;
 }
-.sp-xq input:checked+label+.img-box+#asd{
+
+.sp-xq>#sp-pj:checked+label+div+.sp-jtxx,
+.sp-xq>#sp-pj:checked+label+div+.sp-jtxx+.sp-img-list {
     display: none;
 }
-.sp-xq label{
+
+.sp-xq input:checked+label+.img-box+.sp-jtxx+.sp-img-list+.sp-xq-ljpj,
+.sp-xq input:checked+label+.img-box+.sp-jtxx+.sp-img-list+.sp-xq-ljpj+.pingjia-neir {
+    display: block;
+}
+
+.sp-xq .label-1 {
     display: inline-block;
     padding: 15px;
     cursor: pointer;
     box-sizing: border-box;
 }
-.img-box{
+
+.sp-xq-jt-l {
+    border-left: 1px solid #ccc;
+}
+
+.img-box {
     float: right;
     text-align: center;
-    margin-right: 10px;
+    padding-right: 10px;
     height: 46px;
     line-height: 62px;
+    border-right: 1px solid #ccc;
 }
-.sp-jtxx{
+
+.sp-jtxx {
     text-align: center;
     padding: 20px 0px;
+    position: relative;
+    border: 1px solid #ccc;
+    /* border-top: none; */
+}
+
+.sp-right-ul {
+    position: absolute;
+    right: -108px;
+    top: 0px;
+    text-align: left;
+}
+
+.sp-right-ul li {
+    margin: 20px 0px;
+}
+
+.sp-right-ul li a {
+    color: #666666;
+}
+
+.sp-right-ul li a:hover {
+    color: #ff0036;
+}
+
+.sp-right-ul li input:checked+a {
+    color: red;
+}
+
+.sp-img-list {
+    text-align: center;
+}
+
+.sp-xq-ljpj {
+    border: 1px solid #ccc;
+    display: none;
+    /* asdasd */
+}
+
+.pingjia-neir {
+    display: none;
+    /* asdasd */
+}
+
+.sp-xq-ljpj img {
+    padding: 15px 25px;
+    border-right: 1px dashed #ccc;
+}
+
+.sp-ms-djdxd {
+    display: inline-block;
+    width: 1em;
+    margin-left: 20px;
+    vertical-align: 9px;
+    color: #666666;
+}
+
+.sp-pj-box {
+    display: inline-block;
+    width: 520px;
+    height: 60px;
+    vertical-align: 29px;
+    margin-left: 20px;
+}
+
+.sp-pj-box a {
+    display: inline-block;
+    border: 1px solid wheat;
+    color: #ff0036;
+    width: 92px;
+    height: 22px;
+    margin-right: 7px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.sp-pj-box a:hover {
+    border: 1px solid #ff0036;
+    background-color: #e2c2c2;
+
+}
+
+.sp-pj-bot {
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    padding: 0px 10px;
+}
+
+.sp-pj-bot-right {
+    float: right;
+}
+
+.sp-pj-bot-right select {
+    background-color: #ececec;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.pj-item {
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.pj-p {
+    display: inline-block;
+    width: 496px;
+}
+
+.pj-xx {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+
+.pj-r {
+    float: right;
+    margin-top: 53px;
+}
+
+.pj-date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.sp-pj-gg {
+    margin-top: 60px;
+}
+
+.sp-lj-mes {
+    margin-top: 30px;
+    margin-bottom: 5px;
 }

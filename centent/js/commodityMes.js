@@ -125,3 +125,8 @@ function stopVideo() {
     fdjIcon.style.display = "block";
     document.getElementById("close-video").style.display = "none";
 }
+
+function tzClick(i){
+    var inp = document.getElementById("tz-in-"+i);
+    inp.checked = true;
+}
