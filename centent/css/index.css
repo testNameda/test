@@ -475,13 +475,45 @@ body {
     background-color: white;
 }
 
-
 .pp-item-a {
     background: url("../img/item-list-img.png") no-repeat 0px 0px;
     width: 124px;
     height: 108px;
     float: left;
     margin-left: 1px;
+}
+
+.pp-item-a-last {
+    position: relative;
+    width: 122px;
+    height: 106px;
+    float: left;
+    margin-left: 1px;
+    background-color: white;
+    text-align: center;
+}
+
+.pp-item-a-last>img {
+    position: absolute;
+    top: 32px;
+    left: 45px;
+}
+
+.pp-item-a-last>span {
+    position: absolute;
+    left: 42px;
+    bottom: 26px;
+}
+
+.pp-item-a-last:hover {
+    background-color: #FF0036;
+    color: white;
+}
+
+.pp-item-a-last:hover>img {
+    content: url("../img/pp-item-last-bg-r.png");
+    transform: rotate(360deg);
+    transition: 0.8s;
 }
 
 .pp-item-a:hover {
