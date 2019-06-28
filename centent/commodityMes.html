@@ -161,13 +161,27 @@
 
     <div class="centent">
         <div class="sp-left">
-            <div class="sp-show-box">
-                <!-- <video src="video/yn.webm" controls="controls" autoplay="autoplay" loop="loop"></video> -->
-                <img src="img/spxq-lbt/lunbot/lunbot-1.jpg" class="lbt" name="lbt">
-                <img src="img/spxq-lbt/lunbot/lunbot-2.jpg" class="lbt" name="lbt">
-                <img src="img/spxq-lbt/lunbot/lunbot-3.jpg" class="lbt" name="lbt">
-                <img src="img/spxq-lbt/lunbot/lunbot-4.jpg" class="lbt" name="lbt">
-                <img src="img/spxq-lbt/lunbot/lunbot-5.jpg" class="lbt" name="lbt">
+            <div class="sp-show-box clearfloat">
+                <video src="video/yn.webm" controls="controls" autoplay="autoplay" loop="loop" id="video"></video>
+                <div class="close-video" onclick="stopVideo()" id="close-video"><i
+                        class="fa fa-close (alias) fa-2x"></i></div>
+                <img src="img/spxq-lbt/lunbot/lunbot-1.jpg" class="lbt" name="lbt" onmousemove="fangDaJ()"
+                    onmouseout="fdjJs()">
+                <img src="img/spxq-lbt/lunbot/lunbot-2.jpg" class="lbt" name="lbt" onmousemove="fangDaJ()"
+                    onmouseout="fdjJs()">
+                <img src="img/spxq-lbt/lunbot/lunbot-3.jpg" class="lbt" name="lbt" onmousemove="fangDaJ()"
+                    onmouseout="fdjJs()">
+                <img src="img/spxq-lbt/lunbot/lunbot-4.jpg" class="lbt" name="lbt" onmousemove="fangDaJ()"
+                    onmouseout="fdjJs()">
+                <img src="img/spxq-lbt/lunbot/lunbot-5.jpg" class="lbt" name="lbt" onmousemove="fangDaJ()"
+                    onmouseout="fdjJs()">
+                <div class="fdj-view" id="fdj-view"></div>
+                <div class="fdj-wg-box" id="fdj-box" onmousemove="fangDaJ()" onmouseout="fdjJs()"></div>
+                <button class="play-video-but" onclick="playVideo()" id="play-video-btn"><i
+                        class="fa fa-play-circle-o fa-3x"></i></button>
+                <div class="fangdajing" id="fangdajing-icon">
+                    <i class="fa fa-search fa-2x"></i>
+                </div>
             </div>
             <div class="yulantu-box">
                 <img src="img/spxq-lbt/yulant/spxq-lbt-1.jpg" alt="" onmouseover="changeImg(1)">

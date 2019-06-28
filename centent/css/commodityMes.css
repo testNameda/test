@@ -157,7 +157,7 @@ body {
     font-size: 15px;
     font-family: "黑体";
     padding: 16px;
-    margin: 0px 42px;
+    margin: 0px 36px;
 }
 
 .sp-left {
@@ -170,10 +170,66 @@ body {
     height: 418px;
 }
 
+.sp-show-box {
+    position: relative;
+}
+
+.fdj-wg-box {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(182, 182, 182, 0.356);
+    position: absolute;
+}
+
 .lbt {
     display: none;
     width: 418px;
     height: 418px;
+}
+
+.play-video-but {
+    display: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+.close-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.473);
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+.fangdajing {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    color: rgb(143, 143, 143);
+    display: none;
+}
+
+.fdj-view {
+    position: absolute;
+    right: -105%;
+    top: 0px;
+    width: 418px;
+    height: 418px;
+    background-repeat: no-repeat;
+    display: none;
 }
 
 .yulantu-box {
@@ -183,7 +239,5 @@ body {
 }
 
 .yulantu-box img:hover {
-    border: 2px solid black;
-    width: 56px;
-    height: 56px;
+    outline: 2px solid black;
 }
