@@ -213,6 +213,7 @@ body {
     border: 1px solid #ccc;
     left: -1100px;
     top: 32px;
+    z-index: 12;
 }
 
 .erweima {

@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>理想生活上天猫</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         .tubiao {
             width: 1190px;
@@ -82,16 +83,18 @@
 
         .form1 {
             background: url("./QQ图片20190625112050.png")no-repeat 0px 0px;
-            width: 40px;
-            height: 38px;
             float: left;
+            border: 1px solid #ccc;
+            outline: none;
+            color: #444444;
         }
 
         .form2 {
             background: url("./FC%L]PU`8SCZ{O~XRN5HDC0.png")no-repeat -2px;
-            width: 40px;
-            height: 38px;
             float: left;
+            border: 1px solid #ccc;
+            outline: none;
+            color: #444444;
         }
 
         .mimadenglu button {
@@ -101,6 +104,7 @@
             color: white;
             font-size: 16px;
             border: none;
+            cursor: pointer;
         }
 
         .wangji {
@@ -171,6 +175,19 @@
             display: inline-block;
             width: 70px;
         }
+
+        .wangji a:hover {
+            color: #ff0036;
+        }
+
+        .login-btn:hover {
+            background: #ff00379d;
+        }
+
+        .form2:focus,
+        .form1:focus {
+            border: 1px solid #8CADE4;
+        }
     </style>
 </head>
 
@@ -189,21 +206,21 @@
                     <a class="denglu-logo" href=""><img src="./3333.png" alt=""></a>
                     <h4>密码登录</h4>
 
-                    <form action="">
+                    <form action="../mainPage/index.html">
                         <input type="text" placeholder="会员名/邮箱/手机号" class="form1">
                         <input type="password" class="form2">
-                        <button type="submit">登录</button>
+                        <button type="submit" class="login-btn">登录</button>
                     </form>
                     <div class="wangji">
                         <ul>
                             <li>
-                                <a href="www.http">忘记密码</a>
+                                <a href="#">忘记密码</a>
                             </li>
                             <li>
-                                <a href="www.http">忘记会员名</a>
+                                <a href="#">忘记会员名</a>
                             </li>
                             <li>
-                                <a href="www.http">免费注册</a>
+                                <a href="../register/zhuce/zhuce.html">免费注册</a>
                             </li>
                         </ul>
                     </div>
