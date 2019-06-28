@@ -1020,6 +1020,15 @@
 
 }
 
+.top4-main-all-right>ul>li>a {
+    color: rgb(97, 94, 94);
+}
+
+.top4-main-all-right>ul>li>a:hover {
+    color: red;
+}
+
+
 .top4-main-all-right>ul>a {
     float: right;
     color: rgb(17, 16, 16);
