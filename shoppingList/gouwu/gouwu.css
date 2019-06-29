@@ -13,7 +13,14 @@
     height: 35px
 }
 
-
+.bottom-bottom {
+    background-color: black;
+    margin-top: 80px;
+}
+.centent {
+    width: 1250px;
+    margin: 0px auto;
+}
 .head1-1>ul>li {
 
     height: 35px;
